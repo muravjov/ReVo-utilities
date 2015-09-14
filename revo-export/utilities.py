@@ -242,6 +242,6 @@ def expand_bibliography_abbreviation(abbrev):
         expansion = bibliography_abbrevs[abbrev]
     else:
         expansion = abbrev
-        print "Warning: no expansion found for '%s'" % abbrev
+        print("Warning: no expansion found for '%s'" % abbrev)
 
     return clean_string(expansion)  # clean string to fix quotation marks and generic abbreviations
